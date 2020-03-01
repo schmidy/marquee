@@ -1,0 +1,32 @@
+/* removes default styling from input color element */
+::-webkit-color-swatch {
+    border: none;
+}
+
+::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+html,
+body {
+    background: #000;
+    color: #fff;
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.marquee {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(green, lime);
+}
+img {
+    display: block;
+}
+.logo {
+    fill: #fff;
+}
